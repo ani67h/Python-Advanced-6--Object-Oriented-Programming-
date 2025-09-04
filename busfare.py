@@ -7,7 +7,7 @@ class vehicle:
 
     def input(self):
         self.passname = input("Enter your name : ")
-        self.type = input("Enter the type of bus that you have travelled in :")
+        self.type = input("Enter the type of bus that you have travelled in : ")
         self.seat = input("Enter your seat number : ")
 
 class bus(vehicle):
